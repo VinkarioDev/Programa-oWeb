@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  padding: 30px;
+}
+
+.hello {
+  color: red;
+  background-color: black;
+  text-align: center;
+  padding: 5px;
+  width: 100%;
+  font-size: 30px;
+  font-weight: 700;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+mark {
+  background-color: black;
+  color: red;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.container {
+  background-color: #ddd6d6;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  border-radius: 2px;
+}
+
+.titulos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ddd6d6;
+  padding: 30px;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.titulos :nth-child(2) {
+  color: green;
+}
+.titulos :nth-child(3) {
+  color: aqua;
+}
+.titulos :nth-child(4) {
+  color: blue;
+}
+.titulos :nth-child(5) {
+  color: purple;
+}
+.titulos :nth-child(6) {
+  color: brown;
+}
+.titulos :nth-child(7) {
+  color: yellow;
+}
+
+.action {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  background-color: #ddd6d6;
+  padding: 30px;
+  gap: 30px;
+}
+
+.img {
+  background-color: #ffffff;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+}
+
+.img:nth-child(1):hover {
+  background-image: url("../images/lenda.png");
+  background-size: cover;
+  transition: 300ms all ease-in-out;
+  color: #fff;
+}
+.img:nth-child(2):hover {
+  background-image: url("../images/receba.jpg");
+  background-size: cover;
+  transition: 300ms all ease-in-out;
+  color: #fff;
+}
+.img:nth-child(3):hover {
+  background-image: url("../images/manel.jpg");
+  background-size: cover;
+  transition: 300ms all ease-in-out;
+  color: #fff;
+}
+.img:nth-child(4):hover {
+  background-image: url("../images/cheidesal.jpg");
+  background-size: cover;
+  transition: 300ms all ease-in-out;
+  color: #fff;
+}
+
+.tabela {
+  margin-top: 30px;
+  background-color: #ddd6d6;
+  padding: 20px;
+}
+
+table {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 0 auto;
+  background-color: #fff;
+  width: 100%;
+}
+
+th {
+  border: 1px solid black;
+  padding: 3px;
+  background-color: antiquewhite;
+}
+
+tr td:nth-child(1) {
+  background-color: rgb(149, 253, 146);
+}
+tr td:nth-child(2) {
+  background-color: rgb(171, 162, 250);
+}
+tr td:nth-child(3) {
+  background-color: rgb(95, 192, 236);
+}
+tr td:nth-child(4) {
+  background-color: rgb(242, 253, 146);
+}
+tr td:nth-child(5) {
+  background-color: rgb(236, 185, 127);
+}
+tr td:nth-child(6) {
+  background-color: rgb(253, 154, 154);
+}
+tr td:nth-child(7){
+    background-color: rgb(219, 146, 253);
+}
+table tr td {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+}
+
+.lista{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  margin-top: 30px;
+  background-color: #ddd6d6;
+
+
+}
+
+.lista ul{
+  margin-right: 15px;
+  background-color: #ddd6d6;
+  width: 50%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+
+  
+
+}
+
+.lista ol{
+  background-color: #ddd6d6;
+  width: 50%;
+  padding: 10px;
+
+
+
+}
+
+
+.lista ul li{
+  list-style: square;
+}
+
+.lista ol li{
+  list-style: decimal;
+}
+
+
