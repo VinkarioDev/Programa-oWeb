@@ -111,5 +111,88 @@
         <li>Lorem ipsum dolor</li>
       </ol>
     </div>
+    <h2 class="hello">Formulário</h2>
+
+    <section class="verificacao">
+      <div class="imagem-cartao">
+        <img src="assets/images/cartao.png" alt="imagem cartão" />
+      </div>
+
+      <form action="">
+        <label for="nome">Nome</label>
+        <input
+          placeholder="Digite o nome como está no cartão"
+          type="text"
+          id="nome"
+        />
+        <br />
+        <br />
+        <label for="email">Email</label>
+        <input type="email" placeholder="Digite o Email" />
+        <br />
+        <br />
+
+        <label for="numero do cartao">Digite o Número do Cartão</label>
+        <input type="number" placeholder="0000 0000 0000 0000 " />
+
+        <div class="cvv-validade">
+          <div class="cvv">
+            <label for="cvv">CVV</label>
+            <input type="number" inputmode="numeric" placeholder="CVV" />
+          </div>
+
+          <div class="validade">
+            <label for="data">Validade Cartão</label>
+            <input type="date" />
+          </div>
+        </div>
+        <br />
+        <br />
+
+        <button>Enviar</button>
+      </form>
+
+      <form class="cadastro" action="">
+       <fieldset>
+        <legend>Curso</legend>
+        <select name="" id="">
+          <option value="ADS">ANÁLISE E DESENVOLVIMENTO DE SISTEMAS</option>
+          <option value="AGRO">AGRONOMIA</option>
+          <option value="AGRO">PEDAGOGIA</option>
+          <option value="AGRO" selected>ESTELIONATO</option>
+        </select>
+       </fieldset>
+       
+
+
+
+        <fieldset>
+          <legend>Sexo</legend>
+          <label for="sexo">Masculino</label>
+          <input type="radio" name="sexo" value="Masculino">
+
+          <label for="sexo">Feminino</label>
+          <input type="radio" name="sexo" value="Feminino">
+
+          <label for="sexo">Gambiarra do Diabo</label>
+          <input type="radio" name="sexo" value="Gambiarra do Diabo">
+        </fieldset>
+
+        <fieldset>
+          <legend>Esporte</legend>
+          <label for="esporte">Futebol</label>
+          <input type="checkbox" name="esporte" value="Futebol">
+
+          <label for="esporte">Rinha de Galo</label>
+          <input type="checkbox" name="esporte" value="Briga de Galo">
+
+          
+          <label for="esporte">Estelionato</label>
+          <input type="checkbox" name="esporte" value="Estelionato">
+
+
+        </fieldset>
+      </form>
+    </section>
   </body>
 </html>
